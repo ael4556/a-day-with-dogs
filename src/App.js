@@ -1,12 +1,12 @@
 import React from 'react';
-import BackgroundMusic from './components/BackgroundMusic.js';
+import Navbar from './components/navbar/index.js';
 
 const App = () => {
   return (
     <div>
-      <h1>Test Background Music</h1>
-      <BackgroundMusic />
-      
+      <Navbar />
+    
+      <h1>Main Page</h1>
     </div>
   );
 };
